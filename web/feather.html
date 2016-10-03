@@ -6,18 +6,27 @@ and open the template in the editor.
 -->
 <html>
     <head>
+        <link rel="stylesheet" type="text/css" href="styles/feather.css">
         <title>TODO supply a title</title>
+        
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
     </head>
     <body>
-        <h1>Robert Feather</h1>
-        <p> Campus Box xxxx  &#8226   Elon, NC 27244  &#8226 (301) 787 0181 &#8226 rfeather@elon.edu</p>
-        <h2>Education</h2>
+    <center><p><h1><span class="big">Robert Feather</span></h1></p> 
+    <p> <span class="big"> Campus Box 1234  &#8226   Elon, NC 27244  &#8226 (301) 787 0181 &#8226 rfeather@elon.edu</span></p></center>
+    
+    <h1><span class="small">Robert Feather</span></h1>
+    <p><span id="t" class="small">Campus Box 1234  &#8226   Elon, NC 27244<br>(301) 787 0181 &#8226 rfeather@elon.edu </span></p>
+    
+    
+        <h2><u>Education</u></h2>
         <p><b>Elon University,</b> Elon NC<br>
-            <i>Bachelor of Science in Computer Science</i><br>
-        GPA: 3.66, 4 years on Dean's List</p>
-        <h2>Technical Qualifications</h2>
+            <i>Bachelor of Science in Computer Science</i> <span id="right1" class="big"> May 2019</span></p>
+        <p class="small">May 2019</p>
+        <p>GPA: 3.66, 4 years on Dean's List</p>
+        <h2><u>Technical Qualifications,</u></h2>
         
         <h3>Programming Languages:</h3>
         <ul><li>  Java, HTML/CSS Swift</li></ul>
@@ -30,23 +39,27 @@ and open the template in the editor.
         <ul>
         <li>Windows 7/10, Mac OSX </li>
         </ul>
-        <h2>Internships</h2>
+        <h2><u>Internships</u></h2>
         
-         <p><b>Fidelity Investments,</b> Raleigh, NC Summer 2016<br>
-             <i><b>Technical Intern</b></i>   </p>
+        <p><b>Fidelity Investments,</b> Raleigh, NC Summer <span class="big" id="right2"> Summer 2015</span></p>
+        <p class="small">Summer 2015</p>
+        <p> <i><b>Technical Intern</b></i>   </p>
          <ul>
-        <li>did stuff to help them</li>
-        <li>this is just a filler</li>
-        <li>i have not actioly had an internship</li>
+        <li>Communicated with developers and analysts on multiple teams to meet project requirements</li>
+        <li>Wired together EJBs in Spring XML config files</li>
+        <li>Used ClearCase to manage views and share code with other developers</li>
          </ul>
-        <p><b>Roku,</b> Austin TX Summer 2015</p>
+        <p><b>Roku,</b> Austin TX Summer <span class="big" id="right3"> Summer 2014</span></p>
+        <p class="small"> Summer 2014</p>
         <p><i><b>Software Engineering Intern</b></i></p>
         <ul>
-        <li> did stuff</li>
-        <li>same stuff as pervious intership</li>
+        <li> Collaborated with senior software developers in day-to-day development efforts</li>
+        <li>Wrote unit tests for platform software and new features and integrated with automated test framework</li>
+       
         </ul>
-        <h2>Work Experience</h2>
-        <p><b>Clear Water Nature Center,</b> Clinton MD Summer 2016</p>
+        <h2><u>Work Experience</u></h2>
+        <p><b>Clear Water Nature Center,</b> Clinton MD <span id="right4" class="big"> Summer 2016</span></p>
+        <p class="small">Summer 2016</p>
         <p><i><b>nature program assistant</b></i></p>
         <ul>
         <li>  Inform the public about the habitats and characteristics of animals during shows</li>
@@ -54,13 +67,16 @@ and open the template in the editor.
         <li> Greet the public as they enter the nature center</li>
         <li>Cooperate with other staff to complete tasks such as remodeling bird cages</li>
         </ul>
-        <h2>Leadership & Campus involvement</h2>
-        <p><b>BSA Eagle Scout</b></p>
+        <h2><u>Leadership & Campus involvement</u></h2>
+        <p><b>BSA Eagle Scout</b><span id="right5" class="big">Fall 2014</span></p>
+        <p class="small">Fall 2014</p>
         <ul>
         <li>am still active in troop</li>
         <li>am an active or the Order of the Arrow the honor society of scouting</li>
         </ul>
-        <p><b>Chess club</b></p>
+        <p><b>Chess club</b><span id="right6" class="big">2015-Present</span></p>
+        <p class="small">2015-Present<p>
+        
         <ul>
             <li>am a member who attend every meeting</li>
             <li>assists with setup and take down at mettings</li>
