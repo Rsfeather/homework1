@@ -1,12 +1,21 @@
-h1,h3,h4,p,li,b,ul{
-    padding-bottom: 0px;
-    margin-bottom: 0px;
-     padding-top: 0px;
-    margin-top: 0px;
+/*Copyright Kevin Kowalsky, Robert Feather*/
+
+body{
+    font-family: PT Sans Pro,sans-serif 
 }
-h2{
-     padding-bottom: 0px;
+
+
+h1,h3,h4,p,li,b,ul{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    
+}
+h2{ 
     margin-bottom: 0px; 
+    padding-bottom: 0px;
+    
 }
 #right1{
     float: right;
@@ -29,6 +38,9 @@ h2{
 body{
     margin-left:50px;
     margin-right:50px;
+}
+.red{
+    color: red;
 }
 @media (min-width: 501px){
    .small{
